@@ -9,6 +9,153 @@
 
 # English [default] (https://localizely.com/language-code/en/)
 # -----------------
+ko: &DEFAULT_KO
+  header:
+    title: Business with HAMA
+    text: It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#services"
+
+  services:
+    title: "Services"
+    text: "HAMA Solution은 기술력과 신뢰를 바탕으로 제조업과 물류 산업의 디지털 전환을 선도하며, 고객의 비즈니스 성장을 위한 최상의 파트너가 되고자 합니다."
+    section: services
+    list:
+      - title: "IT CONSULTING"
+        desc: "제조업 환경에 최적화된 IT 솔루션 도입을 위해 맞춤형 컨설팅을 제공합니다. 생산성 향상과 효율적인 운영을 위한 최적의 전략을 제시합니다."
+        imgurl: assets/img/solution/solution-ico.png
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "SI"
+        desc: "MES, WMS, 도면 관리 시스템 등 다양한 IT 시스템을 통합 구축하여 제조 현장의 디지털 전환을 지원합니다. 유연하고 확장 가능한 시스템을 구현합니다."
+        imgurl: assets/img/solution/si-ico.png
+        icon: fas fa-laptop
+      - title: "ITO/SM"
+        desc: "고객 시스템의 안정적인 운영을 위해 체계적인 유지보수 서비스를 제공합니다. 신속한 기술 지원과 지속적인 시스템 최적화를 보장합니다."
+        imgurl: assets/img/solution/sm-ico.png
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "제조 공정의 효율성을 극대화하고, 운영 비용을 절감할 수 있는 HAMA의 혁신적인 솔루션을 경험해 보세요."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "HISTORY"
+    text: ""
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "(주)에이치앤엠에이 설립"
+        year: "October 2023"
+        desc: "경기도 화성시 동탄대로 706, 1동 718호 동탄IT밸리"
+        image: assets/img/logo/logo-write-v1.png
+        width: 130
+        alt:
+      - title: "SAMSUNG SDI PLC 유지보수"
+        year: "October 2024"
+        desc: "Hungary SAMSUNG SDI 전해액 공급실 PLC 유지보수 계약"
+        image: assets/img/timeline/2.jpg
+        width:
+        alt:
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Us"
+    text: "HAMA SOLUTION"
+    body: "(주)에이치엔앰에이는 솔루션 구축에 필요한 컨설팅부터 시스템 설계, 구축, 사후 관리까지 모든 단계의 서비스를 제공하는 솔루션 기업입니다.<br>
+    2024년에 설립된 HAMA Solution은 빠르게 변화하는 산업 환경에 대응할 수 있는 최적의 솔루션을 제공합니다.
+    <br>
+    저희는 고객의 비즈니스 목표에 맞는 맞춤형 시스템을 설계하고, 구축에서 유지보수까지 전 과정에 걸쳐 체계적인 서비스를 제공합니다. <br>(주)에이치앤엠에이"
+    section: about
+
+  location:
+    title: Location
+    location: 경기도 화성시 동탄대로 706 동탄IT밸리2 718호
+
+  clients:
+    title: "OUR CLIENTS"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: clients
+    horizontal-scrolling: "no" #"yes/no"
+    list:
+      - title: "SAMSUNG ELECTRONICS"
+        url:
+        logo: assets/img/clients/samsung_Electronics_logo.png
+      - title: "SAMSUNG SDI"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/samsung-sdi.png
+      - title: "SAMSUNG SDS"
+        url:
+        logo: assets/img/clients/samsung-sds.png
+      - title: "SAMSUNG ELECTRO MECHANICS"
+        url:
+        logo: assets/img/clients/Samsung_Electro-Mechanics_logo.png
+      - title: "SOULBRAIN"
+        url:
+        logo: assets/img/clients/soulbrain_CI.jpg
+
+
+  team:
+    title: "OUR CLIENTS"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    clients:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+
+  contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
 en: &DEFAULT_EN
   header:
     title: Business with HAMA
@@ -156,580 +303,210 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
 
 en-001: #English (World)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-150: #English (Europe)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-AG: #English (Antigua and Barbuda)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-AI: #English (Anguilla)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-AS: #English (American Samoa)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-AT: #English (Austria)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-AU: #English (Australia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BB: #English (Barbados)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BE: #English (Belgium)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BI: #English (Burundi)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BM: #English (Bermuda)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BS: #English (Bahamas)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BW: #English (Botswana)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-BZ: #English (Belize)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CA: #English (Canada)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CC: #English (Cocos (Keeling) Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CH: #English (Switzerland)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CK: #English (Cook Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CM: #English (Cameroon)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CX: #English (Christmas Island)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-CY: #English (Cyprus)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-DE: #English (Germany)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-DK: #English (Denmark)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-DM: #English (Dominica)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-ER: #English (Eritrea)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-FI: #English (Finland)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-FJ: #English (Fiji)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-FK: #English (Falkland Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-FM: #English (Micronesia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GB: #English (United Kingdom)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GD: #English (Grenada)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GG: #English (Guernsey)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GH: #English (Ghana)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GI: #English (Gibraltar)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GM: #English (Gambia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GU: #English (Guam)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-GY: #English (Guyana)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-HK: #English (Hong Kong)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-IE: #English (Ireland)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-IL: #English (Israel)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-IM: #English (Isle of Man)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-IN: #English (India)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-IO: #English (British Indian Ocean Territory)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-JE: #English (Jersey)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-JM: #English (Jamaica)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-KE: #English (Kenya)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-KI: #English (Kiribati)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-KN: #English (Saint Kitts and Nevis)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-KY: #English (Cayman Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-LC: #English (Saint Lucia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-LR: #English (Liberia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-LS: #English (Lesotho)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MG: #English (Madagascar)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MH: #English (Marshall Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MO: #English (Macao)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MP: #English (Northern Mariana Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MS: #English (Montserrat)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MT: #English (Malta)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MU: #English (Mauritius)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MW: #English (Malawi)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-MY: #English (Malaysia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NA: #English (Namibia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NF: #English (Norfolk Island)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NG: #English (Nigeria)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NL: #English (Netherlands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NR: #English (Nauru)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NU: #English (Niue)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-NZ: #English (New Zealand)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PG: #English (Papua New Guinea)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PH: #English (Philippines)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PK: #English (Pakistan)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PN: #English (Pitcairn Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PR: #English (Puerto Rico)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-PW: #English (Palau)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-RW: #English (Rwanda)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SB: #English (Solomon Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SC: #English (Seychelles)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SD: #English (Sudan)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SE: #English (Sweden)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SG: #English (Singapore)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SH: #English (Saint Helena)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SI: #English (Slovenia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SL: #English (Sierra Leone)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SS: #English (South Sudan)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SX: #English (Sint Maarten)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-SZ: #English (Eswatini)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TC: #English (Turks and Caicos Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TK: #English (Tokelau)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TO: #English (Tonga)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TT: #English (Trinidad and Tobago)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TV: #English (Tuvalu)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-TZ: #English (Tanzania)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-UG: #English (Uganda)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-UM: #English (United States Minor Outlying Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-US: #English (United States)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-VC: #English (Saint Vincent and the Grenadines)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-VG: #English (British Virgin Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-VI: #English (U.S. Virgin Islands)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-VU: #English (Vanuatu)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-WS: #English (Samoa)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-ZA: #English (South Africa)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-ZM: #English (Zambia)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-ZW: #English (Zimbabwe)
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_KO
 en-KR: #English (Korean)
-  <<: *DEFAULT_EN
-
-# Spanish (https://localizely.com/language-code/es/)
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-
-es-419: #Spanish (Latin America and the Caribbean)
-  <<: *DEFAULT_ES
-es-AR: #Spanish (Argentina)
-  <<: *DEFAULT_ES
-es-BO: #Spanish (Bolivia)
-  <<: *DEFAULT_ES
-es-BR: #Spanish (Brazil)
-  <<: *DEFAULT_ES
-es-BZ: #Spanish (Belize)
-  <<: *DEFAULT_ES
-es-CL: #Spanish (Chile)
-  <<: *DEFAULT_ES
-es-CO: #Spanish (Colombia)
-  <<: *DEFAULT_ES
-es-CR: #Spanish (Costa Rica)
-  <<: *DEFAULT_ES
-es-CU: #Spanish (Cuba)
-  <<: *DEFAULT_ES
-es-DO: #Spanish (Dominican Republic)
-  <<: *DEFAULT_ES
-es-EC: #Spanish (Ecuador)
-  <<: *DEFAULT_ES
-es-ES: #Spanish (Spain)
-  <<: *DEFAULT_ES
-es-GQ: #Spanish (Equatorial Guinea)
-  <<: *DEFAULT_ES
-es-GT: #Spanish (Guatemala)
-  <<: *DEFAULT_ES
-es-HN: #Spanish (Honduras)
-  <<: *DEFAULT_ES
-es-MX: #Spanish (Mexico)
-  <<: *DEFAULT_ES
-es-NI: #Spanish (Nicaragua)
-  <<: *DEFAULT_ES
-es-PA: #Spanish (Panama)
-  <<: *DEFAULT_ES
-es-PE: #Spanish (Peru)
-  <<: *DEFAULT_ES
-es-PH: #Spanish (Philippines)
-  <<: *DEFAULT_ES
-es-PR: #Spanish (Puerto Rico)
-  <<: *DEFAULT_ES
-es-PY: #Spanish (Paraguay)
-  <<: *DEFAULT_ES
-es-SV: #Spanish (El Salvador)
-  <<: *DEFAULT_ES
-es-US: #Spanish (United States)
-  <<: *DEFAULT_ES
-es-UY: #Spanish (Uruguay)
-  <<: *DEFAULT_ES
-es-VE: #Spanish (Venezuela)
-  <<: *DEFAULT_ES
-
-# Deutsch (https://localizely.com/language-code/de/)
-# -----------------
-de: &DEFAULT_DE
-  header:
-    title: Willkommen auf unserer Webseite!
-    text: Schön das Sie hier sind!
-    button: Mehr erfahren
-    buttonlink: "#Angebote"
-
-  services:
-    title: "Leistungen"
-    text: "Was wir anbieten."
-    section: Leistungen
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://de.wikipedia.org/wiki/Markdown)"
-        desc: "Hier können Sie etwas mit **Markdown** einfügen."
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: Portfolio
-    closebutton: "Schließen"
-
-  timeline:
-    title: "Geschichte"
-    text: "Lorem ipsum timeline"
-    section: Geschichte
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Unsere Anfänge"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Gründung der Firma"
-        year: "März 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Das Jekyll-Thema wurde erstellt"
-        year: "2019"
-        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
-        image: assets/img/timeline/3.jpg
-        alt: Bildbeschreibung
-      - title: "Titel"
-        year: "2009-2011"
-        desc: "Hier können Sie etwas mit **Markdown** einfügen."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
-
-  about:
-    title: "Über uns"
-    text: "Unsere Geschichte."
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: Ueber
-
-  clients:
-    section: Kunden
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "Unser großartiges Team"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: Team
-    people:
-      - name: "Kay Garland"
-        role: "Chef-Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Chef der Werbeabteilung"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Chef-Programmiererin"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Kontakt"
-    text: "Kontaktieren Sie uns."
-    section: Kontakt
-    name: "Name*"
-    name-validation: "Geben Sie einen Namen ein."
-    email: "E-Mail*"
-    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
-    phone: "Telefonnummer*"
-    phone-validation: "Geben Sie Ihre Telefonnummer ein."
-    message: "Nachricht*"
-    message-validation: "Schreiben Sie etwas..."
-    subject: "Kontakt-Formular Bestätigung"
-    submit: "Nachricht absenden"
-
-  footer:
-    legal: "Datenschutzerklärung"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-
-de-AT: #German (Austria)
-  <<: *DEFAULT_DE
-de-BE: #German (Belgium)
-  <<: *DEFAULT_DE
-de-CH: #German (Switzerland)
-  <<: *DEFAULT_DE
-de-DE: #German (Germany)
-  <<: *DEFAULT_DE
-de-IT: #German (Italy)
-  <<: *DEFAULT_DE
-de-LI: #German (Liechtenstein)
-  <<: *DEFAULT_DE
-de-LU: #German (Luxembourg)
-  <<: *DEFAULT_DE
+  <<: *DEFAULT_KO
