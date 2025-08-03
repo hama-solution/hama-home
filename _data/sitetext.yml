@@ -51,15 +51,15 @@ ko: &DEFAULT_KO
         year: "October 2023"
         desc: "경기도 화성시 동탄대로 706, 1동 718호 동탄IT밸리"
         image: assets/img/logo/logo-write-v1.png
-        width: 130
+        width: 125
         alt:
-      - title: "SAMSUNG SDI PLC 유지보수"
-        year: "October 2024"
-        desc: "Hungary SAMSUNG SDI 전해액 공급실 PLC 유지보수 계약"
-        image: assets/img/timeline/2.jpg
-        width:
-        alt:
-        align: right
+#      - title: "SAMSUNG SDI PLC 유지보수"
+#        year: "October 2024"
+#        desc: "Hungary SAMSUNG SDI 전해액 공급실 PLC 유지보수 계약"
+#        image: assets/img/timeline/2.jpg
+#        width:
+#        alt:
+#        align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
@@ -93,6 +93,9 @@ ko: &DEFAULT_KO
       - title: "SAMSUNG ELECTRO MECHANICS"
         url:
         logo: assets/img/clients/Samsung_Electro-Mechanics_logo.png
+      - title: "SK ON"
+        url:
+        logo: assets/img/clients/skon-logo.png
       - title: "SOULBRAIN"
         url:
         logo: assets/img/clients/soulbrain_CI.jpg

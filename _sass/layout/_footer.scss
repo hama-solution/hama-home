@@ -1,7 +1,9 @@
 // Styling for the footer
-.footer {
+#footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #28165c;
+  background-image: url("#{$contact-image}");
   span.copyright {
     font-size: 90%;
     line-height: 40px;
@@ -14,6 +16,9 @@
     margin-bottom: 0;
     text-transform: none;
     @include heading-font;
+  }
+  .container a{
+    color: white;
   }
 }
 

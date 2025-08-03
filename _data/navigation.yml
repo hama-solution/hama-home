@@ -19,10 +19,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Timeline"
       section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
+    - title: "Client"
+      section: clients
     - title: "Location"
       section: location
 #    - title: "Location"
