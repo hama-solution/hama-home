@@ -16,7 +16,7 @@
 url    : "https://hama-solution.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/homepage" # the subpath of your site, e.g. /blog
 
-title      : HAMA SOLUTION
+title      : 주식회사 에이치앤엠에이
 email      : master@hamasol.com #this is also the email contact forms will go to
 description: "환영합니다. 주식회사 에이치앤엠에이입니다."
 author     : Your Name
