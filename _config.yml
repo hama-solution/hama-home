@@ -13,7 +13,7 @@
 
 #theme: jekyll-agency
 
-url    : "https://hama-solution.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://www.hamasol.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/homepage" # the subpath of your site, e.g. /blog
 
 title      : 주식회사 에이치앤엠에이
